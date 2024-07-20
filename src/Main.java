@@ -9,10 +9,12 @@ public class Main {
         str = texto.nextLine();
         System.out.println("bem vindo "+ str);
 
-        texto.close();
 
-
+        System.out.println("Digite um número. ");
+        int numero = texto.nextInt();
+        System.out.println("O número digitado foi: " + numero);
 
         System.out.println("Hello world!");
+        texto.close();
     }
 }
